@@ -45,19 +45,6 @@ nav a {
 
 }
 
-   #main-el{ 
-       background-color: var(--main-bg);
-       display: flex;
-        justify-content: center;
-        align-items: center;
-      
-   }
-.top-menu-el{
-    background-color: var(--sub-menu-bg);
-  height: 100px ;
-   }
-
-   
 
 
 
