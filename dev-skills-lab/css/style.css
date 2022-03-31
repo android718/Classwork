@@ -1,11 +1,25 @@
-
-
-.topnav{
-    background-color: rgb(17, 16, 15);
-    overflow:hidden;
-    display: flexbox;
-    flex-direction: c;
+#sub-heading {
+    display:flex;
     justify-content: center;
-    border-color: lightgreen ;
+    padding: .5px;
+    margin: 0px;
+    background-color: rgb(111, 185, 111);
+    color: white
+}
+
+#enter{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    height :auto;
 
 }
+#skill-input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height : 2em;
+    width:400px;
+    border: 3px solid green;
+}
+
