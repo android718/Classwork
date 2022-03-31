@@ -5,13 +5,6 @@ const game = {
     secretNum: null,
 
 
-
-
-
-
-
-
-
     play: function () {
       this.secretNum =
         Math.floor(Math.random() * (this.biggestNum - this.smallestNum + 1)) +
@@ -20,4 +13,4 @@ const game = {
 
     getGuess: function()
        
-  {
+};
