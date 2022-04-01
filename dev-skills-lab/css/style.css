@@ -1,25 +1,52 @@
+
+
 #sub-heading {
     display:flex;
     justify-content: center;
+    align-items: center;
     padding: .5px;
     margin: 0px;
     background-color: rgb(111, 185, 111);
     color: white
 }
 
-#enter{
+#skill-display{
     display:flex;
     justify-content: left;
     align-items: center;
     height :auto;
 
 }
-#skill-input{
+#enter{
     display:flex;
     justify-content: center;
     align-items: center;
     height : 2em;
-    width:400px;
+    width:300px;
     border: 3px solid green;
+    margin: 0%;
 }
 
+#skill-input{
+outline: 5px, solid green;
+height: 2em;
+width: 80%;
+}
+
+.delete{
+    height: 10px;
+    min-width: 10px;
+    max-width: 10px;
+    background-color: darkred;
+    width: 10px;
+    z-index: 99;
+}
+
+.list-item{
+    font-size: 22px;
+    margin-left: 1em;
+    list-style-type: none;
+}
+form{
+    width: 100px;
+}
