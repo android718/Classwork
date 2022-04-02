@@ -1,8 +1,16 @@
-console.log("JS is up and running!")
 const APIKEY="30723883f60a29ab406644e4467c8e60";
+let $searchinput = $("input")
+let $button  = $('.submit')
 
-$.ajax({
-    url: `https://api.openweathermap.org/data/2.5/weather?q=+${inputValue}&APPID=${APIKEY}`,
+$button.on('click', ()  => {
+    let text =$searchinput.val()
+    $.ajax(`https://api.openweathermap.org/data/2.5/weather?q=+${text}&APPID=${APIKEY}`).then(
+    (data) => { 
+        console.log(data)
+    })
 
-}).then((data) => {
-    console.log((data))})
+   
+ 
+
+
+});
