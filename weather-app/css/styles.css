@@ -1,6 +1,6 @@
 *
 {
-margin: 0;
+margin: auto;
 padding: 0;
 box-sizing: border-box;
 }
@@ -40,7 +40,16 @@ input[type="text"]{
             border-color: red;
 
     }
+.imagecontainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    border: 6px dotted;
+}
 
-.display {
-    text-align: center;
+.imagecontainer img{
+    width: 250px;
+    height: 342px;
+    object-fit: cover;
 }
