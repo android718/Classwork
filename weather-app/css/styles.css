@@ -40,7 +40,7 @@ input[type="text"]{
             border-color: red;
 
     }
-.imagecontainer {
+.infocontainer {
     display: flex;
     width: 90%;
     margin: auto;
@@ -48,7 +48,7 @@ input[type="text"]{
     border: 6px dotted;
 }
 
-.imagecontainer img{
+.imagecontainer main{
     width: 250px;
     height: 342px;
     object-fit: cover;
